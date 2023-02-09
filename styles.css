@@ -1,6 +1,11 @@
 .flexbox-container {
     display: flex;
-    align-items: flex-end;
+    height: 700px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    /* align-content: flex-center; */
 
 }
 .flexbox-item {
@@ -10,6 +15,7 @@
     background-color: red;
     color: white;
     text-align-last: center;
+    /* text-align:; */
 }
 .flexbox-item-1 {
     min-height: 100px;
