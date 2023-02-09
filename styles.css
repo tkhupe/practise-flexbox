@@ -1,0 +1,37 @@
+.flexbox-container {
+    display: flex;
+    align-items: flex-end;
+
+}
+.flexbox-item {
+    width: 200px;
+    margin: 10px;
+    border: 10px solid blue;
+    background-color: red;
+    color: white;
+    text-align-last: center;
+}
+.flexbox-item-1 {
+    min-height: 100px;
+    
+}
+
+.flexbox-item-2 {
+    min-height: 200px;
+}
+
+.flexbox-item-3 {
+    min-height: 300px;
+}
+
+.flexbox-item-4 {
+    min-height: 300px;
+}
+
+.flexbox-item-5 {
+    min-height: 200px;
+}
+
+.flexbox-item-6 {
+    min-height: 100px;
+}
